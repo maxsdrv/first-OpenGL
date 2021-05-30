@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/maxim/OpenGLProjects/Chapter1/main.cpp
+/home/maxim/OpenGLProjects/first-OpenGL/Chapter1/main.cpp
 glad/glad.h
 -
 GLFW/glfw3.h

@@ -62,10 +62,10 @@ RM = /snap/clion/151/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maxim/OpenGLProjects/Chapter1
+CMAKE_SOURCE_DIR = /home/maxim/OpenGLProjects/first-OpenGL/Chapter1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/maxim/OpenGLProjects/Chapter1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/maxim/OpenGLProjects/first-OpenGL/Chapter1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Chapter1.dir/depend.make
@@ -78,29 +78,29 @@ include CMakeFiles/Chapter1.dir/flags.make
 
 CMakeFiles/Chapter1.dir/main.cpp.o: CMakeFiles/Chapter1.dir/flags.make
 CMakeFiles/Chapter1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxim/OpenGLProjects/Chapter1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Chapter1.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chapter1.dir/main.cpp.o -c /home/maxim/OpenGLProjects/Chapter1/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxim/OpenGLProjects/first-OpenGL/Chapter1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Chapter1.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chapter1.dir/main.cpp.o -c /home/maxim/OpenGLProjects/first-OpenGL/Chapter1/main.cpp
 
 CMakeFiles/Chapter1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chapter1.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maxim/OpenGLProjects/Chapter1/main.cpp > CMakeFiles/Chapter1.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maxim/OpenGLProjects/first-OpenGL/Chapter1/main.cpp > CMakeFiles/Chapter1.dir/main.cpp.i
 
 CMakeFiles/Chapter1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chapter1.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maxim/OpenGLProjects/Chapter1/main.cpp -o CMakeFiles/Chapter1.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maxim/OpenGLProjects/first-OpenGL/Chapter1/main.cpp -o CMakeFiles/Chapter1.dir/main.cpp.s
 
 CMakeFiles/Chapter1.dir/src/glad.c.o: CMakeFiles/Chapter1.dir/flags.make
 CMakeFiles/Chapter1.dir/src/glad.c.o: ../src/glad.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxim/OpenGLProjects/Chapter1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Chapter1.dir/src/glad.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Chapter1.dir/src/glad.c.o -c /home/maxim/OpenGLProjects/Chapter1/src/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxim/OpenGLProjects/first-OpenGL/Chapter1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Chapter1.dir/src/glad.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Chapter1.dir/src/glad.c.o -c /home/maxim/OpenGLProjects/first-OpenGL/Chapter1/src/glad.c
 
 CMakeFiles/Chapter1.dir/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Chapter1.dir/src/glad.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/maxim/OpenGLProjects/Chapter1/src/glad.c > CMakeFiles/Chapter1.dir/src/glad.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/maxim/OpenGLProjects/first-OpenGL/Chapter1/src/glad.c > CMakeFiles/Chapter1.dir/src/glad.c.i
 
 CMakeFiles/Chapter1.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Chapter1.dir/src/glad.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/maxim/OpenGLProjects/Chapter1/src/glad.c -o CMakeFiles/Chapter1.dir/src/glad.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/maxim/OpenGLProjects/first-OpenGL/Chapter1/src/glad.c -o CMakeFiles/Chapter1.dir/src/glad.c.s
 
 # Object files for target Chapter1
 Chapter1_OBJECTS = \
@@ -114,7 +114,7 @@ Chapter1: CMakeFiles/Chapter1.dir/main.cpp.o
 Chapter1: CMakeFiles/Chapter1.dir/src/glad.c.o
 Chapter1: CMakeFiles/Chapter1.dir/build.make
 Chapter1: CMakeFiles/Chapter1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maxim/OpenGLProjects/Chapter1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Chapter1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maxim/OpenGLProjects/first-OpenGL/Chapter1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Chapter1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Chapter1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +127,6 @@ CMakeFiles/Chapter1.dir/clean:
 .PHONY : CMakeFiles/Chapter1.dir/clean
 
 CMakeFiles/Chapter1.dir/depend:
-	cd /home/maxim/OpenGLProjects/Chapter1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maxim/OpenGLProjects/Chapter1 /home/maxim/OpenGLProjects/Chapter1 /home/maxim/OpenGLProjects/Chapter1/cmake-build-debug /home/maxim/OpenGLProjects/Chapter1/cmake-build-debug /home/maxim/OpenGLProjects/Chapter1/cmake-build-debug/CMakeFiles/Chapter1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/maxim/OpenGLProjects/first-OpenGL/Chapter1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maxim/OpenGLProjects/first-OpenGL/Chapter1 /home/maxim/OpenGLProjects/first-OpenGL/Chapter1 /home/maxim/OpenGLProjects/first-OpenGL/Chapter1/cmake-build-debug /home/maxim/OpenGLProjects/first-OpenGL/Chapter1/cmake-build-debug /home/maxim/OpenGLProjects/first-OpenGL/Chapter1/cmake-build-debug/CMakeFiles/Chapter1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Chapter1.dir/depend
 
