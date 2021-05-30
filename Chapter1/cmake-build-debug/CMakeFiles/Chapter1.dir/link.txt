@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter1.dir/main.cpp.o CMakeFiles/Chapter1.dir/src/glad.c.o -o Chapter1  -lglut -lglfw -lGLEW -lGL -lGLU -ldl 
