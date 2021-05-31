@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/maxim/OpenGLProjects/first-OpenGL/Chapter1/src/glad.c" "/home/maxim/OpenGLProjects/first-OpenGL/Chapter1/cmake-build-debug/CMakeFiles/Chapter1.dir/src/glad.c.o"
+  "D:/ms.sidorov.project/my_code/OpenGLprojects/first-OpenGL/Chapter1/src/glad.c" "D:/ms.sidorov.project/my_code/OpenGLprojects/first-OpenGL/Chapter1/cmake-build-debug/CMakeFiles/Chapter1.dir/src/glad.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -13,7 +13,7 @@ set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/maxim/OpenGLProjects/first-OpenGL/Chapter1/main.cpp" "/home/maxim/OpenGLProjects/first-OpenGL/Chapter1/cmake-build-debug/CMakeFiles/Chapter1.dir/main.cpp.o"
+  "D:/ms.sidorov.project/my_code/OpenGLprojects/first-OpenGL/Chapter1/main.cpp" "D:/ms.sidorov.project/my_code/OpenGLprojects/first-OpenGL/Chapter1/cmake-build-debug/CMakeFiles/Chapter1.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

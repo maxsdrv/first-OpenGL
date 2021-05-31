@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/maxim/OpenGLProjects/first-OpenGL/Chapter1/main.cpp
+D:/ms.sidorov.project/my_code/OpenGLprojects/first-OpenGL/Chapter1/main.cpp
 glad/glad.h
 -
 GLFW/glfw3.h
 -
 iostream
--
-string
 -
 
