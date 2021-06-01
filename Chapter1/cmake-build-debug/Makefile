@@ -195,6 +195,33 @@ src/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chapter1.dir\build.make CMakeFiles/Chapter1.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
+training1.obj: training1.cpp.obj
+
+.PHONY : training1.obj
+
+# target to build an object file
+training1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chapter1.dir\build.make CMakeFiles/Chapter1.dir/training1.cpp.obj
+.PHONY : training1.cpp.obj
+
+training1.i: training1.cpp.i
+
+.PHONY : training1.i
+
+# target to preprocess a source file
+training1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chapter1.dir\build.make CMakeFiles/Chapter1.dir/training1.cpp.i
+.PHONY : training1.cpp.i
+
+training1.s: training1.cpp.s
+
+.PHONY : training1.s
+
+# target to generate assembly for a file
+training1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chapter1.dir\build.make CMakeFiles/Chapter1.dir/training1.cpp.s
+.PHONY : training1.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -210,6 +237,9 @@ help:
 	@echo ... src/glad.obj
 	@echo ... src/glad.i
 	@echo ... src/glad.s
+	@echo ... training1.obj
+	@echo ... training1.i
+	@echo ... training1.s
 .PHONY : help
 
 

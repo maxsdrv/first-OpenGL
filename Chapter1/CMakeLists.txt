@@ -3,6 +3,6 @@ project(Chapter1)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Chapter1 main.cpp src/glad.c)
+add_executable(Chapter1 main.cpp src/glad.c training1.cpp)
 
 target_link_libraries(Chapter1 -lglfw3 -lOpenGL32)
