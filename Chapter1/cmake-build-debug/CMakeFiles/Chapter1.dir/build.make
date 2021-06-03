@@ -75,18 +75,18 @@ include CMakeFiles/Chapter1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Chapter1.dir/flags.make
 
-CMakeFiles/Chapter1.dir/main.cpp.obj: CMakeFiles/Chapter1.dir/flags.make
-CMakeFiles/Chapter1.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ms.sidorov.project\my_code\OpenGLprojects\first-OpenGL\Chapter1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Chapter1.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Chapter1.dir\main.cpp.obj -c D:\ms.sidorov.project\my_code\OpenGLprojects\first-OpenGL\Chapter1\main.cpp
+CMakeFiles/Chapter1.dir/training1.cpp.obj: CMakeFiles/Chapter1.dir/flags.make
+CMakeFiles/Chapter1.dir/training1.cpp.obj: ../training1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ms.sidorov.project\my_code\OpenGLprojects\first-OpenGL\Chapter1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Chapter1.dir/training1.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Chapter1.dir\training1.cpp.obj -c D:\ms.sidorov.project\my_code\OpenGLprojects\first-OpenGL\Chapter1\training1.cpp
 
-CMakeFiles/Chapter1.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chapter1.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ms.sidorov.project\my_code\OpenGLprojects\first-OpenGL\Chapter1\main.cpp > CMakeFiles\Chapter1.dir\main.cpp.i
+CMakeFiles/Chapter1.dir/training1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chapter1.dir/training1.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ms.sidorov.project\my_code\OpenGLprojects\first-OpenGL\Chapter1\training1.cpp > CMakeFiles\Chapter1.dir\training1.cpp.i
 
-CMakeFiles/Chapter1.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chapter1.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ms.sidorov.project\my_code\OpenGLprojects\first-OpenGL\Chapter1\main.cpp -o CMakeFiles\Chapter1.dir\main.cpp.s
+CMakeFiles/Chapter1.dir/training1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chapter1.dir/training1.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ms.sidorov.project\my_code\OpenGLprojects\first-OpenGL\Chapter1\training1.cpp -o CMakeFiles\Chapter1.dir\training1.cpp.s
 
 CMakeFiles/Chapter1.dir/src/glad.c.obj: CMakeFiles/Chapter1.dir/flags.make
 CMakeFiles/Chapter1.dir/src/glad.c.obj: ../src/glad.c
@@ -101,36 +101,21 @@ CMakeFiles/Chapter1.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Chapter1.dir/src/glad.c.s"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\ms.sidorov.project\my_code\OpenGLprojects\first-OpenGL\Chapter1\src\glad.c -o CMakeFiles\Chapter1.dir\src\glad.c.s
 
-CMakeFiles/Chapter1.dir/training1.cpp.obj: CMakeFiles/Chapter1.dir/flags.make
-CMakeFiles/Chapter1.dir/training1.cpp.obj: ../training1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ms.sidorov.project\my_code\OpenGLprojects\first-OpenGL\Chapter1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Chapter1.dir/training1.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Chapter1.dir\training1.cpp.obj -c D:\ms.sidorov.project\my_code\OpenGLprojects\first-OpenGL\Chapter1\training1.cpp
-
-CMakeFiles/Chapter1.dir/training1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chapter1.dir/training1.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ms.sidorov.project\my_code\OpenGLprojects\first-OpenGL\Chapter1\training1.cpp > CMakeFiles\Chapter1.dir\training1.cpp.i
-
-CMakeFiles/Chapter1.dir/training1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chapter1.dir/training1.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ms.sidorov.project\my_code\OpenGLprojects\first-OpenGL\Chapter1\training1.cpp -o CMakeFiles\Chapter1.dir\training1.cpp.s
-
 # Object files for target Chapter1
 Chapter1_OBJECTS = \
-"CMakeFiles/Chapter1.dir/main.cpp.obj" \
-"CMakeFiles/Chapter1.dir/src/glad.c.obj" \
-"CMakeFiles/Chapter1.dir/training1.cpp.obj"
+"CMakeFiles/Chapter1.dir/training1.cpp.obj" \
+"CMakeFiles/Chapter1.dir/src/glad.c.obj"
 
 # External object files for target Chapter1
 Chapter1_EXTERNAL_OBJECTS =
 
-Chapter1.exe: CMakeFiles/Chapter1.dir/main.cpp.obj
-Chapter1.exe: CMakeFiles/Chapter1.dir/src/glad.c.obj
 Chapter1.exe: CMakeFiles/Chapter1.dir/training1.cpp.obj
+Chapter1.exe: CMakeFiles/Chapter1.dir/src/glad.c.obj
 Chapter1.exe: CMakeFiles/Chapter1.dir/build.make
 Chapter1.exe: CMakeFiles/Chapter1.dir/linklibs.rsp
 Chapter1.exe: CMakeFiles/Chapter1.dir/objects1.rsp
 Chapter1.exe: CMakeFiles/Chapter1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\ms.sidorov.project\my_code\OpenGLprojects\first-OpenGL\Chapter1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Chapter1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\ms.sidorov.project\my_code\OpenGLprojects\first-OpenGL\Chapter1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Chapter1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Chapter1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

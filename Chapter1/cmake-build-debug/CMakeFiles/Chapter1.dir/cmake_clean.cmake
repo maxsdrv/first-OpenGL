@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Chapter1.dir/main.cpp.obj"
   "CMakeFiles/Chapter1.dir/src/glad.c.obj"
   "CMakeFiles/Chapter1.dir/training1.cpp.obj"
   "Chapter1.exe"

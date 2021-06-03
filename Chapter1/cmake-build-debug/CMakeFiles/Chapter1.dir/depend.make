@@ -3,5 +3,5 @@
 
 CMakeFiles/Chapter1.dir/src/glad.c.obj: ../src/glad.c
 
-CMakeFiles/Chapter1.dir/main.cpp.obj: ../main.cpp
+CMakeFiles/Chapter1.dir/training1.cpp.obj: ../training1.cpp
 

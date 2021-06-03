@@ -13,7 +13,6 @@ set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/ms.sidorov.project/my_code/OpenGLprojects/first-OpenGL/Chapter1/main.cpp" "D:/ms.sidorov.project/my_code/OpenGLprojects/first-OpenGL/Chapter1/cmake-build-debug/CMakeFiles/Chapter1.dir/main.cpp.obj"
   "D:/ms.sidorov.project/my_code/OpenGLprojects/first-OpenGL/Chapter1/training1.cpp" "D:/ms.sidorov.project/my_code/OpenGLprojects/first-OpenGL/Chapter1/cmake-build-debug/CMakeFiles/Chapter1.dir/training1.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

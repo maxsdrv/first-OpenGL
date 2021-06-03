@@ -80,9 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/ms.sidorov.project/my_code/OpenGLprojects/first-OpenGL/Chapter1/main.cpp">
-			<Option target="Chapter1"/>
-		</Unit>
 		<Unit filename="D:/ms.sidorov.project/my_code/OpenGLprojects/first-OpenGL/Chapter1/src/glad.c">
 			<Option target="Chapter1"/>
 		</Unit>
