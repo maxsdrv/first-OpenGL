@@ -1,4 +1,4 @@
-"D:\ms.sidorov.project\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\ms.sidorov.project\my_code\OpenGLprojects\first-OpenGL\Chapter1
+/snap/clion/152/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/maxim/Cpp/opengl-projects/Chapter1
 -- Configuring done
 -- Generating done
--- Build files have been written to: D:/ms.sidorov.project/my_code/OpenGLprojects/first-OpenGL/Chapter1/cmake-build-debug
+-- Build files have been written to: /home/maxim/Cpp/opengl-projects/Chapter1/cmake-build-debug

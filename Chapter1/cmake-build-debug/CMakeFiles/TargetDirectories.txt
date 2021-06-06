@@ -1,3 +1,3 @@
-D:/ms.sidorov.project/my_code/OpenGLprojects/first-OpenGL/Chapter1/cmake-build-debug/CMakeFiles/Chapter1.dir
-D:/ms.sidorov.project/my_code/OpenGLprojects/first-OpenGL/Chapter1/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/ms.sidorov.project/my_code/OpenGLprojects/first-OpenGL/Chapter1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/maxim/Cpp/opengl-projects/Chapter1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/maxim/Cpp/opengl-projects/Chapter1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/maxim/Cpp/opengl-projects/Chapter1/cmake-build-debug/CMakeFiles/Chapter1.dir

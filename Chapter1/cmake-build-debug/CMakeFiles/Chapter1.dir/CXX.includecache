@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-D:/ms.sidorov.project/my_code/OpenGLprojects/first-OpenGL/Chapter1/training1.cpp
+/home/maxim/Cpp/opengl-projects/Chapter1/lesson2.cpp
 glad/glad.h
 -
 GLFW/glfw3.h
@@ -14,5 +14,7 @@ GLFW/glfw3.h
 iostream
 -
 vector
+-
+cmath
 -
 

@@ -1,3 +1,1 @@
-"D:\ms.sidorov.project\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Chapter1.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\Chapter1.dir/objects.a @CMakeFiles\Chapter1.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Chapter1.dir/objects.a -Wl,--no-whole-archive -o Chapter1.exe -Wl,--out-implib,libChapter1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Chapter1.dir\linklibs.rsp
+/usr/bin/c++ -g CMakeFiles/Chapter1.dir/lesson2.cpp.o CMakeFiles/Chapter1.dir/src/glad.c.o -o Chapter1  -lglfw -lGL -lX11 -lpthread -lXrandr -ldl 
