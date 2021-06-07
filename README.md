@@ -1,2 +1,2 @@
 # first-OpenGL
-programms with OpenGL 
+programs with OpenGL 
