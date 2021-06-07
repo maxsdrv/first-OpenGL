@@ -4,7 +4,7 @@ project(Chapter1)
 set(CMAKE_CXX_STANDARD 17)
 
 
-add_executable(Chapter1 lesson2.cpp src/glad.c)
+add_executable(Chapter1 lesson2.cpp src/glad.c Shader.cpp Shader.h)
 
 #libraries for linux, just comment out it if you need
 #target_link_libraries(Chapter1 -lglfw -lGL -lX11 -lpthread -lXrandr -ldl)
