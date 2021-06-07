@@ -12,6 +12,7 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow* window);
 void textRendering(std::string text);
 
+
 //Shaders GLSL
 /************************************************************************/
 const char* vertexShaderSource = "#version 330 core\n"
@@ -34,11 +35,11 @@ const char* yellowShaderSource = "#version 330 core\n"
                                    "{\n"
                                    "FragColor = vec4(1.0f, 1.0f, 0.0f, 1.0f);\n"
                                    "}\n\0";
+
 /*************************************************************************/
 
 
 int main() {
-
 
     glfwInit();
     glfwInit();
@@ -158,6 +159,11 @@ int main() {
 //    glBindBuffer(GL_ARRAY_BUFFER, 0);
 
 //    glBindVertexArray(0);
+
+    //Getting count vertex
+    int getAttributes = 0;
+    glGetIntegerv(GL_MAX_VERTEX_ATTRIBS, &getAttributes);
+    std::cout << "Maximum nr of vertex attributes supported: " << getAttributes << std::endl;
 
     //Rendering cycle
     while (!glfwWindowShouldClose(window)) {
