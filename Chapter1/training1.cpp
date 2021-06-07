@@ -1,14 +1,16 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
+#include <GL/freeglut.h>
 
 #include <iostream>
 #include <vector>
 
-const unsigned int HEIGHT = 800;
-const unsigned int WIDTH = 600;
+const unsigned int HEIGHT = 1920;
+const unsigned int WIDTH = 1028;
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow* window);
+void textRendering(std::string text);
 
 //Shaders GLSL
 /************************************************************************/
@@ -23,7 +25,7 @@ const char* blackShaderSource = "#version 330 core\n"
                                    "out vec4 FragColor;\n"
                                    "void main()\n"
                                    "{\n"
-                                   "FragColor = vec4(1.0f, 0.5f, 0.2f, 1.0f);\n"
+                                   "FragColor = vec4(1.0f, 0.0f, 0.0f, 1.0f);\n"
                                    "}\n\0";
 
 const char* yellowShaderSource = "#version 330 core\n"
@@ -125,16 +127,16 @@ int main() {
     glDeleteShader(yellowShader);
 
     std::vector<float> vertices {
-        -1.0f, -1.0f, 0.0f,
-        -0.5f,  0.0f, 0.0f,
-         0.0f, -1.0f, 0.0f
+        -0.05f,  1.0f, 0.0f,
+        -1.0f,  0.0f, 0.0f,
+        -0.05f,  0.0f, 0.0f
     };
 
 
     std::vector<float> triangle2 {
-        0.0f, -0.5f, 0.0f,
-        0.9f, -0.5f, 0.0f,
-        0.45f, 0.5f, 0.0f
+        0.05f,  1.0f, 0.0f,
+        1.0f,  0.0f, 0.0f,
+        0.05f,  0.0f, 0.0f
     };
 
     unsigned int VBOs[2], VAOs[2];
@@ -161,7 +163,7 @@ int main() {
     while (!glfwWindowShouldClose(window)) {
         processInput(window);
 
-        glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
+        glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
 
         glUseProgram(shaderProgramBlack);
@@ -195,7 +197,16 @@ void processInput(GLFWwindow* window) {
     }
 }
 
+void textRendering(std::string text) {
+    int w = 0;
+    w = glutBitmapLength(GLUT_BITMAP_8_BY_13, text);
+    glRasterPos2f(0.0, 0.0);
 
+    float x = 0.5;
+    glRasterPos2f(x - (float) WIDTH / 2, 0.0);
+
+    glColor3f(1.0, 0.0, 0.0);
+}
 
 
 

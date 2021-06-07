@@ -11,6 +11,8 @@ glad/glad.h
 -
 GLFW/glfw3.h
 -
+GL/glut.h
+-
 iostream
 -
 vector

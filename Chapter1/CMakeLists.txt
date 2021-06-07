@@ -7,4 +7,4 @@ set(CMAKE_CXX_STANDARD 17)
 add_executable(Chapter1 training1.cpp src/glad.c)
 
 
-target_link_libraries(Chapter1 -lglfw3 -lOpenGL32)
+target_link_libraries(Chapter1 -lglfw3 -lglut32 -lOpenGL32)
