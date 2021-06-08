@@ -76,6 +76,8 @@ int main() {
         //Update for uniform color value
         /*float timeValue = glfwGetTime();
         float greenValue = sin(timeValue) / 2.0f + 0.5f;*/
+        float offset = 0.5f;
+        ourShader.setFloat("u_position", offset);
 
         ourShader.use();
         glBindVertexArray(VAO);
