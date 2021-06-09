@@ -59,11 +59,11 @@ int main() {
 
     glBindVertexArray(VAO);
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
-    glBufferData(GL_ARRAY_BUFFER, multicolor.size() * sizeof(multicolor), &multicolor.front(), GL_STATIC_DRAW);
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)nullptr);
+    glBufferData(GL_ARRAY_BUFFER, indices.size() * sizeof(indices), &indices.front(), GL_STATIC_DRAW);
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)nullptr);
     glEnableVertexAttribArray(0);
-    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3* sizeof(float)));
-    glEnableVertexAttribArray(1);
+//    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3 * sizeof(float)));
+//    glEnableVertexAttribArray(1);
 
     //Rendering cycle
     while (!glfwWindowShouldClose(window)) {
@@ -76,8 +76,9 @@ int main() {
         //Update for uniform color value
         /*float timeValue = glfwGetTime();
         float greenValue = sin(timeValue) / 2.0f + 0.5f;*/
+
         float offset = 0.5f;
-        ourShader.setFloat("u_position", offset);
+        ourShader.setFloat("xOffset", offset);
 
         ourShader.use();
         glBindVertexArray(VAO);
@@ -90,6 +91,7 @@ int main() {
     glDeleteVertexArrays(1, &VAO);
     glDeleteBuffers(1, &VBO);
 
+    glfwTerminate();
 
     return 0;
 }
